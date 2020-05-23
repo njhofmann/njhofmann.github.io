@@ -1,4 +1,4 @@
-Basic personal website based forked from (here)[https://github.com/henrythemes/jekyll-starter-theme]
+Basic personal website based forked from [here](https://github.com/henrythemes/jekyll-starter-theme)
 
 
 A minimalistic Jekyll starter theme for "classic" web sites (e.g. just some web pages)

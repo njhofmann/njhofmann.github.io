@@ -6,7 +6,5 @@ title:  Welcome
 # {{ page.title }}
 
 
-this is under construction :()
+this site is under construction :(
 
-
-[quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md

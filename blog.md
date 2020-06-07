@@ -6,4 +6,4 @@ permalink: /blog/
 
 # {{ page.title }}
 
-this page is currently under construction :(
+some blog posts will go here eventually...

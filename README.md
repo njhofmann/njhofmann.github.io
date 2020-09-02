@@ -26,3 +26,6 @@ Becomes
     └── index.html               # index (start) sample page
 ```
 
+Notes
+- blogs are in the format of 'date-title.md'
+

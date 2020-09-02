@@ -6,4 +6,10 @@ permalink: /blog/
 
 # {{ page.title }}
 
-some blog posts will go here eventually...
+<ul>
+  {% for post in site.posts %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+  {% endfor %}
+</ul>
+

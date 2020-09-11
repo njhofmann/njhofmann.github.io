@@ -27,5 +27,6 @@ Becomes
 ```
 
 Notes
-- blogs are in the format of 'date-title.md'
+- blogs are in the format of 'dyear-month-day-date-title.md'
+- test deployment `jekyll serve -s personal-site -d personal-site/_site --watch --drafts`
 

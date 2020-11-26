@@ -110,7 +110,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Unsummon](https://scryfall.com/card/m20/78/unsummon)             |   29
 | [Lightning Bolt](https://scryfall.com/card/jmp/342/lightning-bolt)       |   29
 | [Shock](https://scryfall.com/card/m21/159/shock)                |   26
-| [Shatter](https://scryfall.com/card/m21/159/shock)              |   26
+| [Shatter](https://scryfall.com/card/rix/114/shatter)              |   26
 | [Terror](https://scryfall.com/card/me4/99/terror)               |   26
 
 ## Land cards with the most reprints?
@@ -154,7 +154,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Chandra, Torch of Defiance](https://scryfall.com/card/klr/117/chandra-torch-of-defiance) | 7 |
 | [Chandra, Pyromaster](https://scryfall.com/card/e01/42/chandra-pyromaster) | 7 |
 | [Daretti, Scrap Savant](https://scryfall.com/card/cm2/4/daretti-scrap-savant) | 6 |
-| [Liliana of the Veil](https://scryfall.com/card/gvl/32/liliana-vess) | 6 |
+| [Liliana of the Veil](hhttps://scryfall.com/card/uma/104/liliana-of-the-veil) | 6 |
 | [Gideon of the Trials](https://scryfall.com/card/akh/14/gideon-of-the-trials) | 6 |
 | [Gideon Jura](https://scryfall.com/card/e01/10/gideon-jura) | 6 |
 
@@ -225,7 +225,7 @@ Does include reminder text; text for suspend, cumulative upkeep, and banding are
 | card | Text Size |
 | :--- | :--- |
 | [Dance of the Dead](https://scryfall.com/card/me2/83/dance-of-the-dead) | 657 |
-| [Master of the Wild Hunt](https://scryfall.com/card/me2/83/dance-of-the-dead) | 627 |
+| [Master of the Wild Hunt](https://scryfall.com/card/a25/181/master-of-the-wild-hunt) | 627 |
 | [Camouflage](https://scryfall.com/card/2ed/188/camouflage) | 589 |
 | [Riftmarked Knight](https://scryfall.com/card/plc/14/riftmarked-knight) | 580 |
 | [Takklemaggot](https://scryfall.com/card/me3/76/takklemaggot) | 561 |
@@ -233,7 +233,7 @@ Does include reminder text; text for suspend, cumulative upkeep, and banding are
 | [Tombstone Stairwell](https://scryfall.com/card/mir/149/tombstone-stairwell) | 543 |
 | [Illusionary Mask](https://scryfall.com/card/me3/197/illusionary-mask) | 534 |
 | [Roiling Horror](https://scryfall.com/card/plc/79/roiling-horror) | 531 |
-| [Nalathni Dragon](https://scryfall.com/card/plc/79/roiling-horror) | 515 |
+| [Nalathni Dragon](https://scryfall.com/card/prm/35956/nalathni-dragon) | 515 |
 
 ## Cards with the most subtypes?
 

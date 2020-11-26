@@ -23,9 +23,7 @@ First some caveats, underlying assumptions, and other info:
 
 If you have any questions about or suggestions for this article - please reach out to me!
 
-## ___ cards with the most reprints?
-
-### Overall
+## Overall cards with the most reprints
 
 | Card                 | Reprints | 
 | :------------------- | :------- | 
@@ -40,7 +38,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Fireball](https://scryfall.com/card/ima/128/fireball)             | 33       |
 | [Air Elemental](https://scryfall.com/card/m20/44/air-elemental)        | 32       | 
 
-### Artifact
+## Artifact cards with the most reprints?
 
 | Card                 | Reprints | 
 | :------------------- | :------- |  
@@ -55,7 +53,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Meekstone](https://scryfall.com/card/7ed/307/meekstone)            |   17
 | [Mana Vault](https://scryfall.com/card/uma/229/mana-vault)           |   17 
 
-### Creatures
+## Creature cards with the most reprints?
 
 | Card                 | Reprints | 
 | :------------------- | :------- |  
@@ -70,7 +68,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [MMahamoti Djinn](https://scryfall.com/card/uma/64/mahamoti-djinn)         | 23       | 
 | [Juggernaut](https://scryfall.com/card/jmp/471/juggernaut)           | 22       | 
 
-### Legendary 
+## Legendary cards with the most reprints? 
 
 | Card                     | Reprints
 | :-                       | :-
@@ -85,7 +83,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Nezumi Graverobber // Nighteyes the Descreator](https://scryfall.com/card/plist/108/nezumi-graverobber-nighteyes-the-desecrator) | 7
 | [Ryuesi, the Falling Start](https://scryfall.com/card/ima/144/ryusei-the-falling-star) | 7
 
-### Enchantments
+## Enchantment cards with the most reprints?
 
 | Card                        | Reprints | 
 | :-------------------------- | :------- |
@@ -100,7 +98,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Fear](https://scryfall.com/card/10e/142/fear)                        |   17
 | [Firebreathing](https://scryfall.com/card/m12/132/firebreathing)               |   17
 
-### Instants
+## Instant cards with the most reprints?
 
 | Card                 | Reprints | 
 | :------------------- | :------- | 
@@ -115,7 +113,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Shatter](https://scryfall.com/card/m21/159/shock)              |   26
 | [Terror](https://scryfall.com/card/me4/99/terror)               |   26
 
-### Land
+## Land cards with the most reprints?
 
 | Card                    | Reprints | 
 | :---------------------- | :------- | 
@@ -130,7 +128,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Selesnya Sanctuary](https://scryfall.com/card/znc/140/selesnya-sanctuary)      |   18
  [Temple of the False God](https://scryfall.com/card/c20/319/temple-of-the-false-god)  |   17
 
-### Sorceries
+## Sorcery cards with the most reprints?
 
 | Card                 | Reprints | 
 | :------------------- | :------- | 
@@ -145,8 +143,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Earthquake](https://scryfall.com/card/cm2/95/earthquake)           |   24
 | [Raise Dead](https://scryfall.com/card/w17/18/raise-dead)           |   23
 
-
-### Planeswalkers
+## Planeswalker cards with the most reprints?
 
 | Card | Reprints |
 | :--- | :--- |
@@ -161,8 +158,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Gideon of the Trials](https://scryfall.com/card/akh/14/gideon-of-the-trials) | 6 |
 | [Gideon Jura](https://scryfall.com/card/e01/10/gideon-jura) | 6 |
 
-
-### Tribes (elves, goblins, etc.)
+## Tribes (elves, goblins, etc.) with the most cards?
 
 Doesn't consider supertypes like creature, legendary, etc.
 
@@ -179,7 +175,7 @@ Doesn't consider supertypes like creature, legendary, etc.
 | beast     |   437
 | elf       |   429
 
-### Secondary Tribes (elf warriors, goblin scouts, etc.)
+## "Secondary" Tribes (elf warriors, goblin scouts, etc.) with the most cards?
 
 Doesn't consider supertypes like creature, legendary, etc.
 
@@ -196,10 +192,7 @@ Doesn't consider supertypes like creature, legendary, etc.
 | merfolk | wizard | 90 |
 | elf | druid | 76 |
 
-
-## Number of unique cards printed by ___? 
-
-### Color
+## Number of unique cards printed by color?
 
 `c` is for colorless cards, multicolored cards are considered twice.
 
@@ -212,7 +205,7 @@ Doesn't consider supertypes like creature, legendary, etc.
 | g | 4177 |
 | c | 311 |
 
-### Type
+## Number of unique cards printed by type?
 
 Major types like creature, artifact, etc.
 
@@ -268,7 +261,7 @@ This does include spaces.
 | [Rebbec, Architect of Ascension](https://scryfall.com/card/cmr/42/rebbec-architect-of-ascension) | 30
 | [Tezzeret, Master of the Bridge](https://scryfall.com/card/war/275/tezzeret-master-of-the-bridge) | 30 
 
-## Average converted mana cost of every MTG set ___?
+## Average converted mana cost of every MTG set?
 
 Only considering "main" sets; core releases, major expansions, etc. - not supplemental products, promotional products, etc. Does consider lands.
 

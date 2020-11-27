@@ -38,7 +38,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Fireball](https://scryfall.com/card/ima/128/fireball)             | 33       |
 | [Air Elemental](https://scryfall.com/card/m20/44/air-elemental)        | 32       | 
 
-## Artifact cards with the most reprints?
+## Artifact cards with the most reprints
 
 | Card                 | Reprints | 
 | :------------------- | :------- |  
@@ -53,7 +53,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Meekstone](https://scryfall.com/card/7ed/307/meekstone)            |   17
 | [Mana Vault](https://scryfall.com/card/uma/229/mana-vault)           |   17 
 
-## Creature cards with the most reprints?
+## Creature cards with the most reprints
 
 | Card                 | Reprints | 
 | :------------------- | :------- |  
@@ -62,13 +62,13 @@ If you have any questions about or suggestions for this article - please reach o
 | [Air Elemental](https://scryfall.com/card/m20/44/air-elemental)        | 32       | 
 | [Shivan Dragon](https://scryfall.com/card/m20/335/shivan-dragon)        | 31       | 
 | [Birds of Paradise](https://scryfall.com/card/cn2/176/birds-of-paradise)    | 30       | 
-| [Sendir Vampire](https://scryfall.com/card/lea/127/sengir-vampire)       | 29       | 
+| [Sengir Vampire](https://scryfall.com/card/lea/127/sengir-vampire)       | 29       | 
 | [Giant Spider](https://scryfall.com/card/m19/183/giant-spider)         | 29       | 
 | [Gravedigger](https://scryfall.com/card/m20/103/gravedigger)          | 27       | 
-| [MMahamoti Djinn](https://scryfall.com/card/uma/64/mahamoti-djinn)         | 23       | 
+| [Mahamoti Djinn](https://scryfall.com/card/uma/64/mahamoti-djinn)         | 23       | 
 | [Juggernaut](https://scryfall.com/card/jmp/471/juggernaut)           | 22       | 
 
-## Legendary cards with the most reprints? 
+## Legendary cards with the most reprints 
 
 | Card                     | Reprints
 | :-                       | :-
@@ -83,7 +83,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Nezumi Graverobber // Nighteyes the Descreator](https://scryfall.com/card/plist/108/nezumi-graverobber-nighteyes-the-desecrator) | 7
 | [Ryuesi, the Falling Start](https://scryfall.com/card/ima/144/ryusei-the-falling-star) | 7
 
-## Enchantment cards with the most reprints?
+## Enchantment cards with the most reprints
 
 | Card                        | Reprints | 
 | :-------------------------- | :------- |
@@ -98,7 +98,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Fear](https://scryfall.com/card/10e/142/fear)                        |   17
 | [Firebreathing](https://scryfall.com/card/m12/132/firebreathing)               |   17
 
-## Instant cards with the most reprints?
+## Instant cards with the most reprints
 
 | Card                 | Reprints | 
 | :------------------- | :------- | 
@@ -113,7 +113,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Shatter](https://scryfall.com/card/rix/114/shatter)              |   26
 | [Terror](https://scryfall.com/card/me4/99/terror)               |   26
 
-## Land cards with the most reprints?
+## Land cards with the most reprints
 
 | Card                    | Reprints | 
 | :---------------------- | :------- | 
@@ -128,7 +128,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Selesnya Sanctuary](https://scryfall.com/card/znc/140/selesnya-sanctuary)      |   18
  [Temple of the False God](https://scryfall.com/card/c20/319/temple-of-the-false-god)  |   17
 
-## Sorcery cards with the most reprints?
+## Sorcery cards with the most reprints
 
 | Card                 | Reprints | 
 | :------------------- | :------- | 
@@ -143,7 +143,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Earthquake](https://scryfall.com/card/cm2/95/earthquake)           |   24
 | [Raise Dead](https://scryfall.com/card/w17/18/raise-dead)           |   23
 
-## Planeswalker cards with the most reprints?
+## Planeswalker cards with the most reprints
 
 | Card | Reprints |
 | :--- | :--- |
@@ -158,7 +158,7 @@ If you have any questions about or suggestions for this article - please reach o
 | [Gideon of the Trials](https://scryfall.com/card/akh/14/gideon-of-the-trials) | 6 |
 | [Gideon Jura](https://scryfall.com/card/e01/10/gideon-jura) | 6 |
 
-## Tribes (elves, goblins, etc.) with the most cards?
+## Tribes (elves, goblins, etc.) with the most cards
 
 Doesn't consider supertypes like creature, legendary, etc.
 
@@ -175,9 +175,9 @@ Doesn't consider supertypes like creature, legendary, etc.
 | beast     |   437
 | elf       |   429
 
-## "Secondary" Tribes (elf warriors, goblin scouts, etc.) with the most cards?
+## "Secondary" Tribes (elf warriors, goblin scouts, etc.) with the most cards
 
-Doesn't consider supertypes like creature, legendary, etc.
+Doesn't consider supertypes like creature, legendary, etc. Only considers cards with exactly two subtypes.
 
 | First Type | Second Type | Count |
 | :--- | :--- | :--- |
@@ -192,7 +192,7 @@ Doesn't consider supertypes like creature, legendary, etc.
 | merfolk | wizard | 90 |
 | elf | druid | 76 |
 
-## Number of unique cards printed by color?
+## Number of unique cards printed by color
 
 `c` is for colorless cards, multicolored cards are considered twice.
 
@@ -205,7 +205,7 @@ Doesn't consider supertypes like creature, legendary, etc.
 | g | 4177 |
 | c | 311 |
 
-## Number of unique cards printed by type?
+## Number of unique cards printed by type
 
 Major types like creature, artifact, etc.
 
@@ -216,9 +216,10 @@ Major types like creature, artifact, etc.
 | instant | 2596 |
 | sorcery | 2384 |
 | artifact | 2169 |
+| land | 747 |
 | planeswalker | 228 |
 
-## Cards with the most text?
+## Cards with the most text
 
 Does include reminder text; text for suspend, cumulative upkeep, and banding are the longest contributors.
 
@@ -235,15 +236,15 @@ Does include reminder text; text for suspend, cumulative upkeep, and banding are
 | [Roiling Horror](https://scryfall.com/card/plc/79/roiling-horror) | 531 |
 | [Nalathni Dragon](https://scryfall.com/card/prm/35956/nalathni-dragon) | 515 |
 
-## Cards with the most subtypes?
+## Cards with the most subtypes
 
-Only really interesting entry here is that only one creature has four subtypes
+Only really interesting entry here is that only one creature has four subtypes. Ignorings subtypes granted by a card's text.
 
 | Card | Number of Types |
 | :--- | :--- |
 | [Seton's Scout](https://scryfall.com/card/tor/138/setons-scout) | 4 |
 
-## Cards with the longest name?
+## Cards with the longest name
 
 This does include spaces.
 
@@ -255,15 +256,15 @@ This does include spaces.
 | [Sunhome, Fortress of the Legion](https://scryfall.com/card/cmr/496/sunhome-fortress-of-the-legion) | 31 
 | [The Tabernacle at Pendrell Vale](https://scryfall.com/card/me3/212/the-tabernacle-at-pendrell-vale) | 31
 | [Hanweir, the Writhing Township](https://scryfall.com/card/emn/130b/hanweir-the-writhing-township) | 30
-| [Ib Halfheart, Goblin Tactician](https://scryfall.com/card/emn/130b/hanweir-the-writhing-township) | 30
+| [Ib Halfheart, Goblin Tactician](https://scryfall.com/card/tsp/163/ib-halfheart-goblin-tactician) | 30
 | [Kroxa, Titan of Death's Hunger](https://scryfall.com/card/thb/221/kroxa-titan-of-deaths-hunger) | 30
 | [Minamo, School at Water's Edge](https://scryfall.com/card/chk/279/minamo-school-at-waters-edge) | 30
 | [Rebbec, Architect of Ascension](https://scryfall.com/card/cmr/42/rebbec-architect-of-ascension) | 30
 | [Tezzeret, Master of the Bridge](https://scryfall.com/card/war/275/tezzeret-master-of-the-bridge) | 30 
 
-## Average converted mana cost of every MTG set?
+## Average converted mana cost of every MTG set
 
-Only considering "main" sets; core releases, major expansions, etc. - not supplemental products, promotional products, etc. Does consider lands.
+Only considering "main" sets; core releases, major expansions, major supplament sets, etc. - not promotional products, small re-releases like "From the Vault", etc. Does consider lands.
 
 | Card | Average CMC
 | :- | :-
@@ -278,7 +279,7 @@ Only considering "main" sets; core releases, major expansions, etc. - not supple
 | Battlebond | 3.492
 | Mirrodin Besieged | 3.48
 
-## Average power and toughness of every creature?
+## Average power and toughness of every creature
 
 Ignoring cards with a variable power or toughness.
 
@@ -286,7 +287,7 @@ Ignoring cards with a variable power or toughness.
 | :--- | :--- |
 | 2.5708 | 2.7551   |
 
-## Most common power & toughness pairings?
+## Most common power & toughness pairings
 
 | Power | Toughness | Count |
 | :--- | :--- | :--- |
@@ -301,7 +302,7 @@ Ignoring cards with a variable power or toughness.
 | 5 | 5 | 370 |
 | 1 | 3 | 308 |
 
-## Least common power & toughness pairings?
+## Least common power & toughness pairings
 
 These all seemed worthwhile to include
 

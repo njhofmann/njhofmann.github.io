@@ -13,8 +13,12 @@ All of my personal work can be found under my [Github repo](https://github.com/n
 * Built with Python, Postgres, and Docker.
 
 ### [portolve](https://github.com/njhofmann/portolve)
-* An framework for exploring solutions to the [optimal portfolio problem](https://en.wikipedia.org/wiki/Portfolio_optimization) through evolutionary algorithmic techniques. 
+* A small program for exploring [optimal portfolio problem](https://en.wikipedia.org/wiki/Portfolio_optimization) through evolutionary algorithmic techniques. 
 * Build with Kotlin and Gradle.
+
+### [voronoi-generation](https://github.com/njhofmann/voronoi-generation)
+* An framework for exploring solutions to the [Voronoi diagrams](https://en.wikipedia.org/wiki/Voronoi_diagram) in under different distance metrics and in higher dimensions. 
+* Build with C, Bash, and Python.
 
 ### [mtg-analysis](https://github.com/njhofmann/mtg-analysis)
 * Time series analysis and modeling of competitive level metagames and card prices for the trading card game *Magic: The Gathering*.
@@ -23,10 +27,3 @@ All of my personal work can be found under my [Github repo](https://github.com/n
 ### [mtg-embeddings](https://github.com/njhofmann/mtg-embedding)
 * Exploring the development of lower dimensional embeddings for *Magic: The Gathering* cards with seq2seq autoencoders.
 * Built with Python and Tensorflow 2.
-
-### [racket-csp](https://github.com/njhofmann/racket-csp)
-* A generalized constraint satisfaction solver written in Racket. 
-
-### [color-mess](https://github.com/njhofmann/color-mess)
-* Collection of various utility classes and functions for basic image manipulation and generation.
-* Built on top of Python and Pillow (Python Imaging Library fork).

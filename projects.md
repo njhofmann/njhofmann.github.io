@@ -17,13 +17,10 @@ All of my personal work can be found under my [Github repo](https://github.com/n
 * Build with Kotlin and Gradle.
 
 ### [voronoi-generation](https://github.com/njhofmann/voronoi-generation)
-* An framework for exploring solutions to the [Voronoi diagrams](https://en.wikipedia.org/wiki/Voronoi_diagram) in under different distance metrics and in higher dimensions. 
+* An framework for exploring the generation [Voronoi diagrams](https://en.wikipedia.org/wiki/Voronoi_diagram) under different distance metrics and in higher dimensions. 
 * Build with C, Bash, and Python.
 
 ### [mtg-analysis](https://github.com/njhofmann/mtg-analysis)
 * Time series analysis and modeling of competitive level metagames and card prices for the trading card game *Magic: The Gathering*.
 * Built with Python's SciPy computing environment (Pandas, Numpy, etc.) and Postgres.
 
-### [mtg-embeddings](https://github.com/njhofmann/mtg-embedding)
-* Exploring the development of lower dimensional embeddings for *Magic: The Gathering* cards with seq2seq autoencoders.
-* Built with Python and Tensorflow 2.

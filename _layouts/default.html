@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  {% if page.use_math %}
+  {% include mathjax_support.html %}
+  {% endif %}
+
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}">
 </head>
 <body>
-
-
 <div id="header">
   <span class='big'>{{ site.title }}</span>
   <span class='small'>{{ site.subtitle }}</span>

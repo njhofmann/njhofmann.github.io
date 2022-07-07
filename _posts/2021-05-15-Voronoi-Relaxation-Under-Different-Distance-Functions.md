@@ -39,17 +39,14 @@ While technically not a distance function due to not obeying the triangle inequa
 
 $$D(x,y)=\frac{\sum\limits_{i=1}^k |x_i-y_i|}{\sum\limits_{i=1}^k |x_i+y_i|}$$
 
-{:style="text-align:center;"}![yay](/assets/voronoi/2d-canberra.gif)
-
-<div align="center">
-    ![yay](/assets/voronoi/2d-canberra.gif)
-</div>
-
 ### [Canberra](https://en.wikipedia.org/wiki/Canberra_distance)
 
 A weighted version of Manhanttan distance that weights the $i$-th element by the sum of asboluste $x_i$ and absolute $y_i$.
 
 $$D(x,y)=\sum\limits_{i=1}^k \frac{|x_i - y_i|}{|x_i| + |y_i|}$$
+
+<center><img src="assets/voronoi/2d-canberra.gif"></center>
+<center>Canberra in 2D</center>
 
 ### [Chebyshev](https://en.wikipedia.org/wiki/Chebyshev_distance)
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Nate Hofmann
+use_math: true
 ---
 
 This post is a series of visual demonstrations of what Voronoi relaxation looks like under varying distance functions and alternative formulations. The code behind the diagrams and relaxation algorithm are form a [small C program I wrote](https://github.com/njhofmann/voronoi-generation), Python was used to process and visualize the results.

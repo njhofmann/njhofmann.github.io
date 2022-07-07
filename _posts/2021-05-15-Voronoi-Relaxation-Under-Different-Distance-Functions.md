@@ -34,20 +34,47 @@ For 2D ($R^2$ space), gifs show Voronoi relaxation for 100 iterations occuring o
 
 For 3D ($R^3$), images show the resulting Vornoi diagram after 100 iterations of Voronoi relaxation on a 300x300x300 sapce under each distance metric, starting from 32 randomly selected centers.
 
+### [Euclidean]()
+
+<center><img src="assets/voronoi/2d-euclidean-cells.gif"></center>
+<center>Euclidean in 2D</center>
+
+<center><img src="assets/voronoi/2d-euclidean-centers.gif"></center>
+<center>Cell centers over time in Euclidean-2D</center>
+
+### [Manhattan]()
+
+<center><img src="assets/voronoi/2d-manhattan-cells.gif"></center>
+<center>Manhattan in 2D</center>
+
+<center><img src="assets/voronoi/2d-manhattan-centers.gif"></center>
+<center>Cell centers over time in Manhattan-2D</center>
+
 ### [Bray-Curtis](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.braycurtis.html#scipy.spatial.distance.braycurtis)
 
-While technically not a distance function due to not obeying the triangle inequality, it comes from biostatistics   aiming to measure the how different two "sites" are on a per-element basis. Guaranteed to be betwee $[0,1]$ if all elements are positive.
+While technically not a distance function due to not obeying the triangle inequality, it comes from biostatistics   aiming to measure the how different two "sites" are on a per-element basis. Guaranteed to be between $[0,1]$ if all elements are positive.
 
 $$D(x,y)=\frac{\sum\limits_{i=1}^k |x_i-y_i|}{\sum\limits_{i=1}^k |x_i+y_i|}$$
+
+<center><img src="assets/voronoi/2d-bray-curtis-cells.gif"></center>
+<center>Bray-Curtis in 2D</center>
+
+<center><img src="assets/voronoi/2d-bray-curtis-centers.gif"></center>
+<center>Cell centers over time in Bray-Curtis-2D</center>
 
 ### [Canberra](https://en.wikipedia.org/wiki/Canberra_distance)
 
 A weighted version of Manhanttan distance that weights the $i$-th element by the sum of asboluste $x_i$ and absolute $y_i$.
 
-$$D(x,y)=\sum\limits_{i=1}^k \frac{|x_i - y_i|}{|x_i| + |y_i|}$$
+$$
+D(x,y)=\sum\limits_{i=1}^k \frac{|x_i - y_i|}{|x_i| + |y_i|}
+$$
 
-<center><img src="assets/voronoi/2d-canberra.gif"></center>
+<center><img src="assets/voronoi/2d-canberra-cells.gif"></center>
 <center>Canberra in 2D</center>
+
+<center><img src="assets/voronoi/2d-canberra-centers.gif"></center>
+<center>Cell centers over time in Canberra-2D</center>
 
 ### [Chebyshev](https://en.wikipedia.org/wiki/Chebyshev_distance)
 
@@ -55,9 +82,21 @@ Also known as the maximum metric, defines $D(x,y)$ as the maximum distance betwe
 
 $$D(x,y)=\max\limits_i (|x_i - y_i|)$$
 
+<center><img src="assets/voronoi/2d-chebyshev-cells.gif"></center>
+<center>Chebyshev in 2D</center>
+
+<center><img src="assets/voronoi/2d-chebyshev-centers.gif"></center>
+<center>Cell centers over time in Chebyshev-2D</center>
+
 ### [Hellinger](https://en.wikipedia.org/wiki/Hellinger_distance#Discrete_distributions)
 
 $$D(x,y)=\frac{1}{\sqrt{2}}\sqrt{\sum\limits_{i=1}^k (\sqrt{x_i} - \sqrt{y_i})^2}$$
+
+<center><img src="assets/voronoi/2d-hellinger-cells.gif"></center>
+<center>Hellinger in 2D</center>
+
+<center><img src="assets/voronoi/2d-hellinger-centers.gif"></center>
+<center>Cell centers over time in Hellinger-2D</center>
 
 ### [Minkowski](https://en.wikipedia.org/wiki/Minkowski_distance)
 
@@ -65,11 +104,59 @@ Basically a generalization of the Manhattan and Euclidian distances. Measures di
 
 $$D(x,y)=(\sum\limits_{i=1}^k |x_i - y_i|^p)^\frac{1}{p} $$
 
+#### When $p=3$
+
+<center><img src="assets/voronoi/2d-mikowski-cells-3.gif"></center>
+<center>Mikowski-3 in 2D</center>
+
+<center><img src="assets/voronoi/2d-mikowski-centers-3.gif"></center>
+<center>Cell centers over time in Mikowski-3-2D</center>
+
+#### When $p=4$
+
+<center><img src="assets/voronoi/2d-mikowski-cells-4.gif"></center>
+<center>Mikowski-4 in 2D</center>
+
+<center><img src="assets/voronoi/2d-mikowski-centers-4.gif"></center>
+<center>Cell centers over time in Mikowski-4-2D</center>
+
+#### When $p=5$
+
+<center><img src="assets/voronoi/2d-mikowski-cells-5.gif"></center>
+<center>Mikowski-5 in 2D</center>
+
+<center><img src="assets/voronoi/2d-mikowski-centers-5.gif"></center>
+<center>Cell centers over time in Mikowski-5-2D</center>
+
 ### [Yang](https://link.springer.com/article/10.1007/s10618-019-00622-6)
 
 A "newer" distance metric introduced for the purposes of retaining all the properties of distance metrics while being more useful than similarity measures used in high dimensional data (like cosine "distance").
 
 $$D(x,y)=((\sum\limits_{i:x_i\geq y_i} x_i - y_i)^p + (\sum\limits_{i:x_i < y_i} y_i - x_i)^p)^\frac{1}{p}$$
+
+#### When $p=3$
+
+<center><img src="assets/voronoi/2d-yang-cells-3.gif"></center>
+<center>Yang-3 in 2D</center>
+
+<center><img src="assets/voronoi/2d-yang-centers-3.gif"></center>
+<center>Cell centers over time in Yang-3-2D</center>
+
+#### When $p=4$
+
+<center><img src="assets/voronoi/2d-yang-cells-4.gif"></center>
+<center>Yang-4 in 2D</center>
+
+<center><img src="assets/voronoi/2d-yang-centers-4.gif"></center>
+<center>Cell centers over time in Yang-4-2D</center>
+
+#### When $p=5$
+
+<center><img src="assets/voronoi/2d-yang-cells-5.gif"></center>
+<center>Yang-5 in 2D</center>
+
+<center><img src="assets/voronoi/2d-yang-centers-5.gif"></center>
+<center>Cell centers over time in Yang-5-2D</center>
 
 ## Alternative Formulations
 

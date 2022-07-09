@@ -22,6 +22,10 @@ From this, we introduce [Voronoi relaxation](https://en.wikipedia.org/wiki/Lloyd
 
 These two steps are usually repeated either for a fixed number of steps, or until convergence has occured. The latter occurs when each cell is roughly the same size (as defined by the number of pixels in the cell), commonly identified when the distance between two successive centers of the same cell are less than some threshold $\tau$ (usually something like .1).
 
+For a quick approximation on the running time of this algorithm, assuming points are in $k$ dimensions where each dimension is of size $d$ (each coordinate is in range $[0,d)$) that occurs for $b$ iterations - may say the running time has a rough upper bound of $O(bd^K)$. Most of this runtime comes from consturcting the Voronoi diagram point-by-point. However faster - but more complicated - algoriths such as [Fortune's algorith](https://en.wikipedia.org/wiki/Fortune%27s_algorithm) exist, but are beyond the scope of this project
+
+For more information on the underlying algorithm from which this project is largely derived, refer to [Lloyd's algorithm](https://en.wikipedia.org/wiki/Lloyd%27s_algorithm). .
+
 ## Distance Functions
 
 The most common distance metrics selected for $D$ are [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) and [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry), but there also exist other distance metrics for points in $R^k$ that might be used.

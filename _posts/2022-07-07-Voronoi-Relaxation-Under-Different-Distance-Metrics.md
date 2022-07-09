@@ -40,7 +40,7 @@ For 3D ($R^3$), images show the resulting Vornoi diagram after 100 iterations of
 
 The most common distance function used with Voronoi diagrams (and in general), gives the length of the line between $x$ and $y$.
 
-\[D(x,y)=\sqrt{\sum\limits_{i=1}^k (x_i-y_i)^2}\]
+\\[D(x,y)=\sqrt{\sum\limits_{i=1}^k (x_i-y_i)^2}\\]
 
 
 <center><img src="assets/voronoi/euclidean/2d-euclidean-cells.gif"></center>

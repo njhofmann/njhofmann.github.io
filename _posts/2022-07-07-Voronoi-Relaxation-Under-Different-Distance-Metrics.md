@@ -56,9 +56,9 @@ The most common distance function used with Voronoi diagrams (and in general), g
 
 ### [Manhattan](https://en.wikipedia.org/wiki/Taxicab_geometry)
 
-Probably the second most common distance function "in general", giving the sum of the absolute differences between the corresponding elements of $x$ and $y$.
+Probably the second most common distance function "in general", giving the sum of the absolute differences between the corresponding elements of $x$ and $y$. 
 
-\$\$D(x,y)=\sum\limits_{i=1}^k |x_i-y_i|\$\$
+\$\$D(x,y)=\sum\limits_{i=1}^k \lvert x_i-y_i \rvert\$\$
 
 <center><img src="assets/voronoi/manhattan/2d-manhattan-cells.gif"></center>
 <center>Manhattan in 2D</center>
@@ -76,7 +76,7 @@ Probably the second most common distance function "in general", giving the sum o
 
 While technically not a distance function due to not obeying the triangle inequality, it comes from biostatistics and related fields aiming to measure the how different two "sites" (says sites of animals). are on a per-element basis. Guaranteed to be between $[0,1]$ if all elements are positive.
 
-\$\$D(x,y)=\frac{\sum\limits_{i=1}^k |x_i-y_i|}{\sum\limits_{i=1}^k |x_i+y_i|}\$\$
+\$\$D(x,y)=\frac{\sum\limits_{i=1}^k \lvert x_i-y_i \rvert}{\sum\limits_{i=1}^k \lvert x_i+y_i \rvert}\$\$
 
 <center><img src="assets/voronoi/bray-curtis/2d-bray-curtis-cells.gif"></center>
 <center>Bray-Curtis in 2D</center>
@@ -94,7 +94,7 @@ While technically not a distance function due to not obeying the triangle inequa
 
 A weighted version of Manhanttan distance, where the $i$-th element is weighted by the sum of the absolute value of $x_i$ and absolute value of $y_i$.
 
-\$\$D(x,y)=\sum\limits_{i=1}^k \frac{|x_i - y_i|}{|x_i| + |y_i|}\$\$
+\$\$D(x,y)=\sum\limits_{i=1}^k \frac{\lvert x_i - y_i \rvert}{\lvert x_i \rvert + \lvert y_i \rvert}\$\$
 
 <center><img src="assets/voronoi/canberra/2d-canberra-cells.gif"></center>
 <center>Canberra in 2D</center>
@@ -112,7 +112,7 @@ A weighted version of Manhanttan distance, where the $i$-th element is weighted 
 
 Also known as the maximum metric, defines distance as the maximum distance between any two of their corresponding elements of $x$ and $y$ ($x_1$ and $y_1$, $x_2$ and $y_2$, etc.).
 
-\$\$D(x,y)=\max\limits_i (|x_i - y_i|)\$\$
+\$\$D(x,y)=\max\limits_i (\lvert x_i - y_i \rvert)$$    
 
 <center><img src="assets/voronoi/chebyshev/2d-chebyshev-cells.gif"></center>
 <center>Chebyshev in 2D</center>
@@ -148,7 +148,7 @@ Basically the Euclidean norm between the difference of the square root vectors o
 
 A generalization of the Manhattan and Euclidian distances by integer $p > 0$ ($p=1$ is Manhattan distance, $p=2$ is Euclidean). Measures distances on normed vector spaces.
 
-\$\$D(x,y)=(\sum\limits_{i=1}^k |x_i - y_i|^p)^\frac{1}{p}\$\$
+\$\$D(x,y)=(\sum\limits_{i=1}^k \lvert x_i - y_i\rvert^p)^\frac{1}{p}\$\$
 
 #### When $p=3$
 

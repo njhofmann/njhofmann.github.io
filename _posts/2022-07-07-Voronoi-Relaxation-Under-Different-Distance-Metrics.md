@@ -24,7 +24,7 @@ These two steps are usually repeated either for a fixed number of steps, or unti
 
 ## Distance Functions
 
-The most common distance metrics selected for $D$ are [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) and [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry), but there also exist other distance metrics for points in $\mathbf{R}^k$ that might be used.
+The most common distance metrics selected for $D$ are [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) and [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry), but there also exist other distance metrics for points in $R^k$ that might be used.
 
 In explaining the [distance metrics](https://en.wikipedia.org/wiki/Metric_(mathematics)) explored in this piece below, we say $x$ and $y$ are two points in $R^k$ whose distance is being measured by distance metric $D$.
 
@@ -42,8 +42,6 @@ The most common distance function used with Voronoi diagrams (and in general), g
 
 \$\$D(x,y)=\sqrt{\sum\limits_{i=1}^k (x_i-y_i)^2}\$\$
 
-<script type="math/tex; mode=display">D(x,y)=\sqrt{\sum\limits_{i=1}^k (x_i-y_i)^2}</script>
-
 <center><img src="assets/voronoi/euclidean/2d-euclidean-cells.gif"></center>
 <center>Euclidean in 2D</center>
 
@@ -60,7 +58,7 @@ The most common distance function used with Voronoi diagrams (and in general), g
 
 Probably the second most common distance function "in general", giving the sum of the absolute differences between the corresponding elements of $x$ and $y$.
 
-$$D(x,y)=\sum\limits_{i=1}^k |x_i-y_i|$$
+\$\$D(x,y)=\sum\limits_{i=1}^k |x_i-y_i|\$\$
 
 <center><img src="assets/voronoi/manhattan/2d-manhattan-cells.gif"></center>
 <center>Manhattan in 2D</center>
@@ -78,7 +76,7 @@ $$D(x,y)=\sum\limits_{i=1}^k |x_i-y_i|$$
 
 While technically not a distance function due to not obeying the triangle inequality, it comes from biostatistics and related fields aiming to measure the how different two "sites" (says sites of animals). are on a per-element basis. Guaranteed to be between $[0,1]$ if all elements are positive.
 
-$$D(x,y)=\frac{\sum\limits_{i=1}^k |x_i-y_i|}{\sum\limits_{i=1}^k |x_i+y_i|}$$
+\$\$D(x,y)=\frac{\sum\limits_{i=1}^k |x_i-y_i|}{\sum\limits_{i=1}^k |x_i+y_i|}\$\$
 
 <center><img src="assets/voronoi/bray-curtis/2d-bray-curtis-cells.gif"></center>
 <center>Bray-Curtis in 2D</center>
@@ -96,9 +94,7 @@ $$D(x,y)=\frac{\sum\limits_{i=1}^k |x_i-y_i|}{\sum\limits_{i=1}^k |x_i+y_i|}$$
 
 A weighted version of Manhanttan distance, where the $i$-th element is weighted by the sum of the absolute value of $x_i$ and absolute value of $y_i$.
 
-$$
-D(x,y)=\sum\limits_{i=1}^k \frac{|x_i - y_i|}{|x_i| + |y_i|}
-$$
+\$\$D(x,y)=\sum\limits_{i=1}^k \frac{|x_i - y_i|}{|x_i| + |y_i|}\$\$
 
 <center><img src="assets/voronoi/canberra/2d-canberra-cells.gif"></center>
 <center>Canberra in 2D</center>
@@ -116,7 +112,7 @@ $$
 
 Also known as the maximum metric, defines distance as the maximum distance between any two of their corresponding elements of $x$ and $y$ ($x_1$ and $y_1$, $x_2$ and $y_2$, etc.).
 
-$$D(x,y)=\max\limits_i (|x_i - y_i|)$$
+\$\$D(x,y)=\max\limits_i (|x_i - y_i|)\$\$
 
 <center><img src="assets/voronoi/chebyshev/2d-chebyshev-cells.gif"></center>
 <center>Chebyshev in 2D</center>
@@ -134,7 +130,7 @@ $$D(x,y)=\max\limits_i (|x_i - y_i|)$$
 
 Basically the Euclidean norm between the difference of the square root vectors of $x$ and $y$, more formally a version of a probability distribution similarity measure assuming $x$ and $y$ are discrete distributions. 
 
-$$D(x,y)=\frac{1}{\sqrt{2}}\sqrt{\sum\limits_{i=1}^k (\sqrt{x_i} - \sqrt{y_i})^2}$$
+\$\$D(x,y)=\frac{1}{\sqrt{2}}\sqrt{\sum\limits_{i=1}^k (\sqrt{x_i} - \sqrt{y_i})^2}\$\$
 
 <center><img src="assets/voronoi/hellinger/2d-hellinger-cells.gif"></center>
 <center>Hellinger in 2D</center>
@@ -152,7 +148,7 @@ $$D(x,y)=\frac{1}{\sqrt{2}}\sqrt{\sum\limits_{i=1}^k (\sqrt{x_i} - \sqrt{y_i})^2
 
 A generalization of the Manhattan and Euclidian distances by integer $p > 0$ ($p=1$ is Manhattan distance, $p=2$ is Euclidean). Measures distances on normed vector spaces.
 
-$$D(x,y)=(\sum\limits_{i=1}^k |x_i - y_i|^p)^\frac{1}{p}$$
+\$\$D(x,y)=(\sum\limits_{i=1}^k |x_i - y_i|^p)^\frac{1}{p}\$\$
 
 #### When $p=3$
 
@@ -200,7 +196,7 @@ $$D(x,y)=(\sum\limits_{i=1}^k |x_i - y_i|^p)^\frac{1}{p}$$
 
 A "newer" distance metric introduced for the purposes of retaining all the properties of distance metrics while being more useful than similarity measures used in high dimensional data (like cosine "distance").
 
-$$D(x,y)=((\sum\limits_{i:x_i\geq y_i} x_i - y_i)^p + (\sum\limits_{i:x_i < y_i} y_i - x_i)^p)^\frac{1}{p}$$
+\$\$D(x,y)=((\sum\limits_{i:x_i\geq y_i} x_i - y_i)^p + (\sum\limits_{i:x_i < y_i} y_i - x_i)^p)^\frac{1}{p}\$\$
 
 #### When $p=3$
 

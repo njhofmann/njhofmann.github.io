@@ -6,14 +6,16 @@ permalink: /about-me/
 
 # {{ page.title }}
 
-I am Nate Hofmann, I am an (incoming) software engineer at Microsoft, working on the Data Integration team with the Azure AI platform. I received my bachelor's from at Northeastern University studying computer science, with an emphasis on artificial intelligence research. A majority of my academic & work interests lie in the realms of building intelligent systems (machine learning, evolutionary algorithms, etc.), programming languages, and mathematics. On the side I spend time drawing, writing, hiking, or playing *Magic: The Gathering*!
+Hi, I'm Nate Hofmann! I'm a SWE at Microsoft on the Model-as-a-Service team in Azure ML.
 
-My resume is available on request!
+This site is collection / archive of personal projects & smattering of personal writings about programming, MTG, and other subjects.
 
-### Contact Me 
+## Contact Me
 
 If you wish to contact me for any reason, I am best reached through either
+
 - a DM on [LinkedIn](https://www.linkedin.com/in/nate-hofmann/)
+
 - an email to `inatejh -at- gmail -dot- com`
 
 I love to collaborate and discuss ideas with others, so please feel free to reach out!

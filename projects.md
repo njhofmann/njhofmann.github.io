@@ -6,7 +6,7 @@ permalink: /projects/
 
 # {{ page.title }}
 
-All of my personal work can be found under my [Github repo](https://github.com/njhofmann). Listed below is a sampling of the work I am the most proud of! 
+All of my personal work can be found under my [Github repo](https://github.com/njhofmann). Listed below is a sampling of the work I am the most proud of!
 
 ### [arXivist](https://github.com/njhofmann/arXivist)
 * A Python command line interface for retreiving, storing, tagging, etc. research papers from [arXiv](https://arxiv.org/) and other pre-print sites
